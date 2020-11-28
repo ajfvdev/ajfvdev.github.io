@@ -17,6 +17,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #333;
 }
 
 body:before {
@@ -33,11 +34,20 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #333;
 }
 
 .titulo-seccion,
 .sobremi-texto {
     color: white;
+}
+
+.texto-about {
+    text-align: start;
+}
+
+.whatcanido {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cover-container {
